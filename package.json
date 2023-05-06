@@ -1,0 +1,26 @@
+{
+  "name": "@awais-khalil/project03_todo_list",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@awais-khalil/project02-atm": "^1.0.0",
+    "@types/node": "^18.15.11",
+    "inquirer": "^9.1.5",
+    "node": "^19.8.1",
+    "typescript": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  },
+  "bin": {
+    "awais_Todoapp": "index.js"
+  }
+}
